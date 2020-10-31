@@ -1,0 +1,205 @@
+/* ======= Desktop devices 992 =======*/
+@media (min-width: 992px){
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin:0px;
+}
+
+
+h1{
+	position: relative;
+	left: 50%;
+	right: 50%;
+}
+
+
+section{
+	border: 1px solid black;
+	width: 30%;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	position: relative;
+	left: 5%;
+}
+
+#chick{
+	margin-top: 0%;
+	float:right;
+	border: 1px solid black;
+	text-align: center;
+
+	background-color: #b5b519;
+
+}
+
+
+#beef{
+	margin-top: 0%;
+	float:right;
+	border: 1px solid black;
+	text-align: center;
+
+	background-color: #b51623;
+}
+
+#sush{
+	margin-top: 0%;
+	float:right;
+	border: 1px solid black;
+	text-align: center;
+
+	background-color: #bf541b;
+}
+
+
+p{
+	padding: 5px;
+	clear: right;
+}
+}  /* End Of PC */
+
+/* ======= Tablet devices 768 and 991 =======*/
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+	*{
+	box-sizing: border-box;
+}
+
+body{
+	margin:0px;
+}
+
+
+h1{
+	position: relative;
+	left: 50%;
+	right: 50%;
+}
+
+
+.c,.b{
+	border: 1px solid black;
+	width: 46%;
+	float: left;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.s{
+	border: 1px solid black;
+	width: 99%;
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+#chick{
+	margin-top: 0%;
+	float:right;
+	border: 1px solid black;
+	text-align: center;
+
+	background-color: #b5b519;
+
+}
+
+
+#beef{
+	margin-top: 0%;
+	float:right;
+	border: 1px solid black;
+	text-align: center;
+
+	background-color: #b51623;
+}
+
+#sush{
+	margin-top: 0%;
+	float:right;
+	border: 1px solid black;
+	text-align: center;
+
+	background-color: #bf541b;
+}
+
+
+p{
+	padding: 5px;
+	clear: right;
+}
+} /* End Of Tablet */
+
+/* ======= mobile devices 768 and 991 =======*/
+
+@media (max-width: 767px){
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin:0px;
+}
+
+
+h1{
+	position: relative;
+	margin-left: 10px;
+
+}
+
+
+.c,.b,.s{
+	border: 1px solid black;
+	width: 99%;
+	float: left;
+	margin-right: 5px;
+	margin-left: 3px;
+	margin-top: 10px;
+}
+
+
+#chick{
+	margin-top: 0%;
+	float:right;
+	border: 1px solid black;
+	text-align: center;
+
+	background-color: #b5b519;
+
+}
+
+
+#beef{
+	margin-top: 0%;
+	float:right;
+	border: 1px solid black;
+	text-align: center;
+
+	background-color: #b51623;
+}
+
+#sush{
+	margin-top: 0%;
+	float:right;
+	border: 1px solid black;
+	text-align: center;
+
+	background-color: #bf541b;
+}
+
+
+p{
+	padding: 5px;
+	clear: right;
+}
+
+}  /* End Of Mobile */
